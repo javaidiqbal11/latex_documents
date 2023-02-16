@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{hyperref}
+
+\begin{document}
+
+\begin{center}
+\textbf{LEAVE APPLICATION FORM}
+\end{center}
+
+\vspace{10pt}
+
+\textbf{Employee Information:}
+
+\begin{Form}
+\begin{tabular}{ll}
+Name: & \TextField[name=name,width=6cm]{} \\
+Employee ID: & \TextField[name=id,width=6cm]{} \\
+Department: & \TextField[name=dept,width=6cm]{} \\
+Position: & \TextField[name=pos,width=6cm]{} \\
+\end{tabular}
+\end{Form}
+
+\vspace{10pt}
+
+\textbf{Leave Details:}
+
+\begin{Form}
+\begin{tabular}{ll}
+Leave Type: & \TextField[name=type,width=6cm]{} \\
+Start Date: & \TextField[name=start,width=6cm]{} \\
+End Date: & \TextField[name=end,width=6cm]{} \\
+Reason: & \TextField[name=reason,width=6cm]{} \\
+\end{tabular}
+\end{Form}
+
+\vspace{10pt}
+
+\textbf{Approval:}
+
+\begin{Form}
+\begin{tabular}{ll}
+Manager's Name: & \TextField[name=manager,width=6cm]{} \\
+Manager's Signature: & \TextField[name=signature,width=6cm]{} \\
+Date: & \TextField[name=date,width=6cm]{} \\
+\end{tabular}
+\end{Form}
+
+\end{document}
